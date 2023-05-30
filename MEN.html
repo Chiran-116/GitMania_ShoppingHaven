@@ -170,7 +170,7 @@
 
         <img class="image-3-icon" alt="" src="./public/image-3@2x.png" />
 
-        <img class="add-cart-1-icon1" alt="" src="./public/addcart-1@2x.png" />
+        <a href="b-a-g.html"><img class="add-cart-1-icon1" id="cartpage" src="./public/addcart-1@2x.png" /></a>
 
         <img class="add-cart-7-icon" alt="" src="./public/addcart-1@2x.png" />
 
@@ -279,6 +279,12 @@
       if (wOMENText1) {
         wOMENText1.addEventListener("click", function (e) {
           window.location.href = "./WOMEN.html";
+        });    
+      }
+      var cartpage = document.getElementById("cartpage");
+      if (cartpage) {
+        cartpage.addEventListener("click", function (e) {
+          window.location.href = "./b-a-g.html";
         });    
       }
       </script>
