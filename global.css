@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-oriya-mn: "Oriya MN";
+  --button-heading: Outfit;
+  --font-habibi: Habibi;
+
+  /* font sizes */
+  --font-size-6xl: 25px;
+  --font-size-41xl: 60px;
+  --font-size-mid: 17px;
+  --font-size-21xl: 40px;
+  --font-size-29xl: 48px;
+  --button-heading-size: 20px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-gainsboro: #d9d9d9;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-whitesmoke: #f1f1f1;
+  --color-dimgray: #554242;
+  --color-gray: #1e1c1c;
+
+  /* border radiuses */
+  --br-11xl: 30px;
+  --br-68xl: 87px;
+  --br-81xl: 100px;
+}
